@@ -13,7 +13,7 @@ Easy to use python environment management
 You can install via pip.
 
 ```sh
-$ (sudo) pip install python_management
+$ (sudo) pip install python_environment
 ```
 
 ### How To Use

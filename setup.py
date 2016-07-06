@@ -12,6 +12,5 @@ setup(
     install_requires=[],
     classifiers=(
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.5.1',
     ),
 )
