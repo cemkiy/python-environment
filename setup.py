@@ -1,12 +1,12 @@
-from setuptools import find_packages, setup
+from distutils.core import setup
 
 setup(
-    name='python-environment',
+    name='python_environment',
     version='0.0.1',
-    packages=find_packages(),
+    packages=['python_environment'],
     url='https://github.com/cemkiy/python-environment',
     license='GNU GENERAL PUBLIC LICENSE',
-    author='Cem Kıy',
+    author='Cem KIY',
     author_email='cemekiy@gmail.com',
     description='python envronment management',
     install_requires=[],

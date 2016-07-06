@@ -21,14 +21,6 @@ class env:
             except:
                 raise TypeError("dictionary values must be string or convertable string")
 
-    def set_variables_to_env(self, variables_dict):
-        for key,value in variables_dict.items():
-            try:
-                os.environ[key] = str(value)
-                self.enviroment_dict[key] = value
-            except:
-                raise TypeError("dictionary values must be string or convertable string")
-
     def set_variable_to_env(self, key, value):
         try:
             os.environ[key] = str(value)
