@@ -20,10 +20,10 @@ $ pip3 install real_environment
 ### How To Use
 
 ```python
-import real_environment
+from real_environment import real_environment
 # init func will autoload your .env file
-env = Environment()
-env.get_env_or_default("db_url","")
-env.set_a_variable_to_environment("key","value")
-env.remove_a_variable_from_environment("key")
+renv = real_environment.RealEnvironment()
+renv.get_env_or_default("db_url","")
+renv.set_a_variable_to_environment("key","value")
+renv.remove_a_variable_from_environment("key")
 ```
