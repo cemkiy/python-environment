@@ -1,9 +1,10 @@
-from distutils.core import setup
+from setuptools import setup
+
 
 setup(
     name='shell_environment',
     version='1.0',
-    packages=['shell_environment'],
+    packages=[],
     url='https://github.com/cemkiy/python-shell-environment',
     license='GNU GENERAL PUBLIC LICENSE',
     author='Cem KIY',
