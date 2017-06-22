@@ -10,10 +10,11 @@ Easy to use python shell environment management
 
 ### Installation
 
-You could install via pip.
+You could install with pip or pip3.
 
 ```sh
-$ pip install python_environment
+$ pip install shell_environment
+$ pip3 install shell_environment
 ```
 
 ### How To Use
@@ -23,4 +24,5 @@ $ pip install python_environment
 env = Environment()
 env.get_env_or_default("db_url","")
 env.set_a_variable_to_environment("key","value")
+env.remove_a_variable_from_environment("key")
 ```
