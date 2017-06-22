@@ -2,9 +2,9 @@ from setuptools import setup
 
 
 setup(
-    name='shell_environment',
+    name='real_environment',
     version='1.0',
-    packages=[],
+    packages=['real_environment'],
     url='https://github.com/cemkiy/python-shell-environment',
     license='GNU GENERAL PUBLIC LICENSE',
     author='Cem KIY',

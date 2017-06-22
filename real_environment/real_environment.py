@@ -2,7 +2,7 @@ import os
 import warnings
 
 
-class Environment():
+class RealEnvironment():
     def __init__(self):
         """
         Read .env file and set to shell environment.

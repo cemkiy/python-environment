@@ -1,4 +1,4 @@
-# Python Shell Environment
+# Real Environment
 
 Easy to use python shell environment management
 
@@ -13,13 +13,14 @@ Easy to use python shell environment management
 You could install with pip or pip3.
 
 ```sh
-$ pip install shell_environment
-$ pip3 install shell_environment
+$ pip install real_environment
+$ pip3 install real_environment
 ```
 
 ### How To Use
 
 ```python
+import real_environment
 # init func will autoload your .env file
 env = Environment()
 env.get_env_or_default("db_url","")
