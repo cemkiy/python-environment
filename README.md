@@ -1,4 +1,4 @@
-# Python-Environment
+# Python Shell Environment
 
 Easy to use python shell environment management
 
